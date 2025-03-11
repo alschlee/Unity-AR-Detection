@@ -1,0 +1,74 @@
+{
+    "name": "XRInputActions",
+    "maps": [
+        {
+            "name": "XRControls",
+            "id": "64cfaf57-f488-4680-98d2-34e085fa5ef6",
+            "actions": [
+                {
+                    "name": "Select",
+                    "type": "Button",
+                    "id": "2f6d6733-d8f4-4e53-9cdb-f2534026e319",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Activate",
+                    "type": "Button",
+                    "id": "1903f57f-05bb-4c24-bb57-c3379e760ff8",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Grip",
+                    "type": "Button",
+                    "id": "2669e7e8-1819-41ca-a868-92757f70d8ed",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a445e93b-7412-4caf-b849-d9cd01b77b12",
+                    "path": "<XRController>/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "04656d29-f105-44e7-a2b3-6a206de0379a",
+                    "path": "<XRController>/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Activate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8069cc59-3eaa-421a-be82-70ffc1088f96",
+                    "path": "<XRController>/{GripButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
