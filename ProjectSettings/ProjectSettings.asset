@@ -143,6 +143,9 @@ PlayerSettings:
   bundleVersion: 0.1.0
   preloadedAssets:
   - {fileID: -944628639613478452, guid: c596509689af5478e93f692a4812578f, type: 3}
+  - {fileID: 4800000, guid: e7c77f6eaab324a819efdc13b8125a39, type: 3}
+  - {fileID: 4800000, guid: 6743a50a812740be8c0aa3fccc46fae9, type: 3}
+  - {fileID: 6511946007848364458, guid: 799e231cbfd714397a48457ef2f97f7a, type: 2}
   - {fileID: 11400000, guid: 64f618727d7de4cf59920e5e46cc8fc7, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -566,7 +569,8 @@ PlayerSettings:
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
-  cameraUsageDescription: 
+  cameraUsageDescription: "\uC8FC\uBCC0 \uD658\uACBD\uC744 \uC778\uC2DD\uD558\uAE30
+    \uC704\uD574 \uCE74\uBA54\uB77C\uB97C \uC0AC\uC6A9\uD569\uB2C8\uB2E4"
   locationUsageDescription: 
   microphoneUsageDescription: 
   bluetoothUsageDescription: 
@@ -824,7 +828,8 @@ PlayerSettings:
   webGLWebAssemblyBigInt: 0
   webGLCloseOnQuit: 0
   webWasm2023: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    iPhone: UNITY_XR_ARKIT_LOADER_ENABLED
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
